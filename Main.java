@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Enter the length of pattern:");
         try{
             Integer n = sc.nextInt();
-            for(int i=5; i>=0; i--){
+            for(int i=n; i>=0; i--){
                 for(int j=0;j<i;j++)
                     System.out.print("*");
                 System.out.print("\n");
